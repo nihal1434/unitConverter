@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
-            rel="stylesheet" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Convert</title>
-</head>
-<body>
-     <div class="mbdy"> 
-            <h1>Metric/Imperial Unit Conversion</h1>
-            <input id="ipt" type="number" />
+  </head>
+  <body>
+      <div class="container">
+        <div class="input">
+          <h1>Metric/Imperial Unit Conversion</h1>
+          <input id="ipt" type="number" />
+          <p id="error" class="error"></p>
+          <div class="btn">
             <button id="cnv-btn">Convert</button>
+            <button id="reset-btn">RESET</button>
+          </div>
         </div>
-        <div class="outpt">
-                <p >Length (Meter/Feet)<span id="len"></span></p>
-                <p >Volume (Liters/Gallons)<span id="vol"></span>    
-                <p >Mass (Kilograms/Pounds)<span id="mass"></span></p>
+
+        <div class="output">
+          <p class="output_area">Length (Meter/Feet)<span id="len"></span></p>
+          <p class="output_area">Volume (Liters/Gallons)<span id="vol"></span></p>
+          <p class="output_area">Mass (Kilograms/Pounds)<span id="mass"></span></p>
         </div>
-    
-        
-        <script src="index.js"></script>
-</body>
+      </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>

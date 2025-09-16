@@ -2,46 +2,65 @@ body {
     margin: 0;
     background: #1C1C1C;
     height: 100vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: "Karla", sans-serif;
+
 }
-.mbdy{
+
+.container {
+    width: 90%;
+    max-width: 550px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.input {
     background: #6943FF;
     color: #ffffff;
-    width: 550px;
-    height: 285px;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-h1{
-    width: 450px;
-    font-family: "Karla", sans-serif;  
-    font-weight: 800px;
-    font-style: Extra Bold;
-    font-size: 28px;
-    line-height: 38px;
-    text-align: center;
-
+input:focus {
+  border-color: #fff;
+  outline: none;
+  box-shadow: 0 0 5px #b295ff;
 }
-input{
-    width: 117px;
-    height: 83px;
-    background:transparent;
+.output {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    width: 450px;
+    font-weight: 800;
+    font-size: 28px;
+    text-align: center;
+}
+.error{
+    color: #fe0909;
+    text-shadow: 0px 0px 1px black;
+}
+
+input {
+    width: 125px;
+    height: 100px;
+    background: transparent;
     color: #ffffff;
     border-radius: 5px;
     border: 2px solid #B295FF;
-    font-family: Inter;
-    font-weight: 800px;
-    font-style: Extra Bold;
-    font-size: 58px;
+    font-weight: 700;
+    font-size: 3.5rem;
     text-align: center;
 }
-button{
+
+button {
     width: 117px;
     height: 42px;
     margin-top: 25px;
@@ -52,36 +71,33 @@ button{
     background-color: #ffffff;
     color: #3D3D3D;
 }
-.outpt{
-    background: #1F2937;
-    width: 550px;
-    height: 440px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+button:active{
+        background-color: #d4c6c6;
 }
-p{
-    width: 500px;
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s ease;
+}
+.btn{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+.output_area {
+    width: 90%;
     height: 110px;
-    text-align: center;
     background: #273549;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #CCC1FF;  
-    font-family: "Karla", sans-serif;  
+    color: #CCC1FF;
     font-weight: 600;
-    font-style: Semi Bold;
     font-size: 20px;
     border-radius: 5px;
 }
-span{
-    font-weight:400;
-    color: #ffffff;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
 
+span {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1rem;
 }
