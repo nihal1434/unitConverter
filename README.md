@@ -1,19 +1,28 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# 🌐 Real World Unit Converter
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple, responsive **Metric ↔ Imperial unit converter** built with **HTML, CSS, and JavaScript**.  
+It converts **Length, Volume, and Mass** in real time, remembers your last input using Local Storage, and provides user-friendly validation with error messages.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+🔗 **Live Demo**: [realworldunitconverter.netlify.app](https://realworldunitconverter.netlify.app/)
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+---
+
+## 🚀 Features
+- ✅ Convert between **Meters ↔ Feet**, **Liters ↔ Gallons**, and **Kilograms ↔ Pounds**  
+- ✅ Input validation with clear error messages  
+- ✅ Press **Enter** to trigger conversion (keyboard-friendly)  
+- ✅ Results are **persisted in Local Storage** (restored after refresh)  
+- ✅ Responsive design (mobile-friendly)  
+- ✅ Reset button clears all fields and storage  
+
+---
+
+## 🛠️ Tech Stack
+- **HTML5** – Structure  
+- **CSS3** – Styling & responsiveness  
+- **JavaScript (ES6)** – Conversion logic & localStorage  
+
+---
+
 
 Happy Coding!
